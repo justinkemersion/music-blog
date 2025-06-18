@@ -1,0 +1,10 @@
+baseURL = "https://justinkemersion.github.io/music-blog/" # Update with your GitHub Pages URL
+languageCode = "en-us"
+title = "Hidden Gems & Deep Cuts"
+theme = "PaperMod"
+
+[params]
+    subtitle = "Discovering obscure indie, folk, jazz, and psych-rock treasures"
+    author = "Mund"
+    ShowReadingTime = true
+    ShowShareButtons = true
