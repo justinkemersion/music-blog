@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Fira+Code&display=swap');
+
+body {
+    font-family: 'Merriweather', serif !important;
+    font-size: 1.1rem !important;
+    line-height: 1.8 !important;
+    color: #333333 !important;
+    background-color: #f9f9f9 !important;
+}
+.post-content {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    color: #333333 !important;
+}
+.post-content h2 {
+    color: #333333 !important;
+}
+a {
+    color: #1e90ff !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #ff4500 !important;
+    text-decoration: underline !important;
+}
+pre, code {
+    background-color: #f0f0f0 !important;
+    color: #2f2f2f !important;
+    border-radius: 8px !important;
+    padding: 4px 8px !important;
+}
+.post-title {
+    font-size: 1.8rem !important;
+    color: #222222 !important;
+    margin-bottom: 1rem !important;
+}
+header.header {
+    background-color: #2a2a2a !important;
+    padding: 1rem 2rem !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+nav.nav {
+    max-width: 800px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.logo a {
+    font-family: 'Merriweather', serif !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: #f9f9f9 !important;
+    text-decoration: none !important;
+}
+.logo a:hover {
+    color: #1e90ff !important;
+}
+#theme-toggle {
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+    padding: 0.5rem !important;
+}
+#theme-toggle svg {
+    fill: none !important;
+    stroke: #f9f9f9 !important;
+    width: 24px !important;
+    height: 18px !important;
+}
+#theme-toggle:hover svg {
+    stroke: #1e90ff !important;
+}
+ul#menu {
+    list-style: none !important;
+    display: flex !important;
+    gap: 1.5rem !important;
+}
+ul#menu li a {
+    color: #f9f9f9 !important;
+    font-size: 1rem !important;
+    text-decoration: none !important;
+}
+ul#menu li a:hover {
+    color: #1e90ff !important;
+}

@@ -1,13 +1,13 @@
 #!/bin/bash
-set -e  # Exit on error
+set -e
 
 cd ~/Projects/music-blog
 echo "Building Hugo site..."
-hugo --gc  # Build site and clean cache
+hugo --gc
 
 echo "Updating public submodule..."
-rm -rf public  # Remove existing public directory
-git submodule update --init --recursive  # Reinitialize submodules
+rm -rf public
+git submodule update --init --recursive
 cd public
 git add .
 git commit -m "Deploy site $(date -I)" || echo "No changes to commit in public"
