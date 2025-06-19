@@ -1,10 +1,48 @@
-baseURL = "https://justinkemersion.github.io/music-blog/" # Update with your GitHub Pages URL
+baseURL = "https://justinkemersion.github.io/"
 languageCode = "en-us"
 title = "Hidden Gems & Deep Cuts"
 theme = "PaperMod"
 
 [params]
-    subtitle = "Discovering obscure indie, folk, jazz, and psych-rock treasures"
+    subtitle = "Discovering obscure indie, folk, and psych-rock treasures"
     author = "Mund"
     ShowReadingTime = true
     ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowBreadCrumbs = true
+    defaultTheme = "auto"
+    disableThemeToggle = false
+
+[params.assets]
+    favicon = "/favicon.ico"
+    customCSS = ["/css/custom.css"]
+
+[params.style.css]
+    mainFont = "'Merriweather', serif"
+    codeFont = "'Fira Code', monospace"
+    fontSize = "1.1rem"
+    lineHeight = "1.8"
+    maxWidth = "800px"
+    textColor = "#333333"
+    backgroundColor = "#f9f9f9"
+    linkColor = "#1e90ff"
+    linkHoverColor = "#ff4500"
+    codeBackgroundColor = "#f0f0f0"
+    codeTextColor = "#2f2f2f"
+    borderRadius = "8px"
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+[[menu.main]]
+    identifier = "playlists"
+    name = "Playlists"
+    url = "/playlists/"
+    weight = 30
